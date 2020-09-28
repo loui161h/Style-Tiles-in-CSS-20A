@@ -70,8 +70,8 @@ footer {
 }
 
 .header-wrapper h2 {
-    font-size: 1.8rem;
-    font-weight: 500;
+    font-size: 1.2rem;
+    font-weight: 300;
     color: rgba(255, 255, 255, 0.95);
     margin: var(--white-space) 0;
 }
@@ -148,7 +148,11 @@ ul li:last-child {
 
 
 .adjectives img {
-    width: 35%;
+    width: 60%;
+}
+
+.adjectives2 img {
+    width: 80%;
 }
 
 
@@ -237,6 +241,7 @@ p.typography-sample {
     line-height: 1.5;
     max-width: 960px;
     font-weight: 300;
+    font-size: 0.9rem;
 }
 
 p.quote-sample {
@@ -287,9 +292,13 @@ p[class*="font-details-"] {
     flex-direction: column;
 }
 
-footer {
-    font-style: italic;
+.adjectives2 ul {
+    flex-direction: column;
 }
+
+/*footer {
+    font-style: italic;
+}*/
 
 @media (min-width: 800px) {
     main {
@@ -312,5 +321,17 @@ footer {
 @media (min-width: 900px) {
     .adjectives ul {
         flex-direction: row;
+    }
+
+    .adjectives img {
+        width: 35%;
+    }
+
+    .adjectives2 img {
+        width: 60%;
+    }
+
+    .adjectives2 ul {
+        flex-direction: column;
     }
 }
